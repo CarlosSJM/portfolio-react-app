@@ -2,6 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+/** *NO USAREMOS ES JS INICAL EN LA APP EN SU LUGAR -> /src/nav/  */
+
 function App() {
   return (
     <div className="App">
