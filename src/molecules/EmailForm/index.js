@@ -1,6 +1,6 @@
 import React from 'react';
 import '../EmailForm/style.css';
-// import * as emailjs from 'emailjs-com';
+import * as emailjs from 'emailjs-com';
 import { Button, Form, FormGroup, Modal, Image } from 'react-bootstrap';
 import ClipLoader from 'react-spinners/BarLoader';
 
@@ -15,6 +15,9 @@ class Email_Form extends React.Component {
             loading: false,
         };
     }
+    // componentDidMount() {
+    //     emailjs.init('user_nJTm2RgMn07Bdq5CZFVX4')
+    // }
 
     handleClose() {
         this.setState({ show: false });
@@ -41,25 +44,26 @@ class Email_Form extends React.Component {
         const {email, subject, message } = this.state
         console.log(this.state);
 
-        // let templateParams = {
-        //     from_name: email,
-        //     to_name: 'carlos.sjmartin@gmail.com',
-        //     subject: subject,
-        //     message_html: message,
-        // }
-        //
-        // emailjs.send(
-        //     'gmail',
-        //     'template_OErNDyFu',
-        //     templateParams,
-        //     'user_64rGh5RuHtigw7paS8NsX'
-        // )
-        //     .then((result) => {
-        //         this.handleShow();
-        //         console.log(result.text);
-        //     }, (error) => {
-        //         console.log(error.text);
-        //     });
+        let templateParams = {
+            from_name: email,
+            to_name: 'carlos.sjmartin@gmail.com',
+            subject: subject,
+            message_html: message,
+        }
+
+
+        emailjs.send(
+            'default_service',
+            'template_f712dKd7',
+            templateParams,
+            'user_nJTm2RgMn07Bdq5CZFVX4'
+        )
+            .then((result) => {
+                this.handleShow();
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
     }
 
     resetForm() {
@@ -120,7 +124,7 @@ class Email_Form extends React.Component {
                         value={this.state.message}
                         className="contact_input"
                         onChange={this.handleChange.bind(this, 'message')}
-                        placeholder="Your text"
+                        placeholder="Your message"
                         required
                     />
                 </FormGroup>

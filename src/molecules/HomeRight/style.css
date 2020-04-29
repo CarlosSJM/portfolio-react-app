@@ -1,0 +1,22 @@
+.home-right{
+    height: 100%;
+}
+
+.home-right-main{
+    height: 100%;
+}
+.home-right-main-container{
+    align-self: flex-end;
+}
+.home-right-main-container-img{
+
+    border-radius: 200px;
+    /*height: 50vh;*/
+    margin: auto;
+    margin-top: 5vh;
+    display: block;
+}
+
+.home-right-footer{
+    width: 100%;
+}

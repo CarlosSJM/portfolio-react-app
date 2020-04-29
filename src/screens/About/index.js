@@ -5,7 +5,7 @@ import Footer from '../../molecules/Footer';
 import Animate from 'react-smooth';
 //import ReactGa from 'react-ga';
 import {Helmet} from 'react-helmet';
-//import CV from '../../components/cv';
+import SkillsEducation from '../../molecules/SkillsEducation';
 import Hamburger from '../../atoms/Hamburger';
 import {aboutParticles} from '../../const/particle_desing.js';
 import Particles from 'react-particles-js';
@@ -35,7 +35,7 @@ class About extends Component {
                         <Hamburger />
                         <div className="d1">
                             imagen CV fdfsadgfsagsag falta envoltorio de imagenes
-                            {/*<CV />*/}
+                            <SkillsEducation/>
                         </div>
                     </Row>
                     <Row className="About-footer">

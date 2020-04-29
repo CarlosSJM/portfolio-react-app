@@ -24,7 +24,7 @@ function HomeLeft() {
                     </h2>
                     <h3>
                         <ReactTypingEffect
-                            text="Full Stack Developer || React || JS... " //text=["Hello.", "World!"]
+                            text="Full Stack Developer || React || JS es6 || PhP || Python || Node.js.." //text=["Hello.", "World!"]
                             className="typical"
                             speed="100"
                             eraseDelay="500000"
