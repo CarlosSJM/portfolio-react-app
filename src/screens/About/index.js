@@ -8,6 +8,7 @@ import {Helmet} from 'react-helmet';
 import SkillsEducation from '../../molecules/SkillsEducation';
 import Hamburger from '../../atoms/Hamburger';
 import {aboutParticles} from '../../const/particle_desing.js';
+//import {aboutVectorParticles} from '../../const/particle_desing.js';
 import Particles from 'react-particles-js';
 
 class About extends Component {

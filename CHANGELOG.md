@@ -6,11 +6,16 @@
  
  ## [Unreleased]
  
- 
+## [0.6.0] - 2020-04-29
+### Added
+ - added Molecule SkillsEducation view with provisional CSS and icon & first version Modals
+ - new particles design and vector img.
+ - effects.
+  
  ## [0.5.0] - 2020-04-28
- ### Added
+ ### Added 
  - added home right Image and styles.
- - Literals.
+ - Literal
  - effects.
  ### Changed
  - literals
