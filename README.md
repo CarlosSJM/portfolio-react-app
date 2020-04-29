@@ -1,3 +1,4 @@
+#PORTFOLIO_REACT 2020
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -5,6 +6,21 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run:
 
 ### `yarn start`
+
+## Techs & components
+### React : 16.13.1
+    -bootstrap: "^4.4.1",
+    -react-bootstrap : "^1.0.0",
+    -emailjs-com : "^2.4.1",
+    -react-helmet": "^6.0.0",
+    -react-particles-js: "^3.0.3",
+    -react-router-dom: "^5.1.2",
+    -react-smooth: "^1.0.5",
+    -react-spinners: "^0.8.1",
+    -react-typing-effect: "^2.0.3"
+    -fortawesome/fontawesome-svg-core: "^1.2.28",
+    -fortawesome/free-brands-svg-icons": "^5.13.0",
+    -fortawesome/react-fontawesome: "^0.1.9",
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
