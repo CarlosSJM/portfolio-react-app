@@ -22,12 +22,13 @@ class SkillsEducation extends Component {
             openExperience : false,
             openSkills: false,
             openEducation : false,
+            openProject : false
         };
     }
  render(){
-    const { openSkills, openEducation, openExperience} = this.state;
+    const { openSkills, openEducation, openExperience, openProject} = this.state;
     return (
-        <Row style={{height : 800}}>
+        <Row style={{ height : '100vh'}}>
             <Col xl={12} >
                         <div className="clc_main">
                             <div className="clc_container">
@@ -38,17 +39,17 @@ class SkillsEducation extends Component {
                                             <br/><br/>
                                             <span>Skills</span>
                                         </div>
-                                        <div className="left">
+                                        <div className="left ">
                                             <FontAwesomeIcon onClick={() => this.setState({ openEducation: true })} icon={faUserGraduate} className="left_icon" />
                                             <br/><br/>
                                             <span>Education</span>
                                         </div>
-                                        <div className="right"><
+                                        <div className="right mt-5"><
                                             FontAwesomeIcon onClick={() => this.setState({ openEducation: true })} icon={faBriefcase} className="left_icon" />
                                             <br/><br/>
                                             <span>Experience</span>
                                         </div>
-                                        {/*<div className="right"><FontAwesomeIcon onClick={() => this.setState({ show: true })} icon={faGitAlt} className="right_icon"/><br/><br/>Projects</div>*/}
+                                        <div className="right mt-5"><FontAwesomeIcon onClick={() => this.setState({ openProject: true })} icon={faGitAlt} className="right_icon"/><br/><br/>Projects</div>
                                     </div>
                             </div>
                             <Modal show={openSkills} size="xl" centered>
@@ -69,6 +70,13 @@ class SkillsEducation extends Component {
                                 <p>Esperience</p>
 
                                 <Button onClick={() => this.setState({ openExperience: false })} variant="outline-light" size="lg" className="modal-exit-btn about_modal">
+                                    Close
+                                </Button>
+                            </Modal>
+                            <Modal show={openProject} size="xl" centered>
+                                <p>Projects</p>
+
+                                <Button onClick={() => this.setState({ openProject: false })} variant="outline-light" size="lg" className="modal-exit-btn about_modal">
                                     Close
                                 </Button>
                             </Modal>

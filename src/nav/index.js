@@ -9,6 +9,7 @@ import Home from "../screens/Home";
 import About from "../screens/About";
 import Contact from "../screens/Contact";
 import Loader from "../screens/Loader";
+import TodoListScreen from "../screens/TodoListScreen";
 
 export default function Nav() {
     return (
@@ -18,6 +19,7 @@ export default function Nav() {
                 <Route path="/home" component={Home} />
                 <Route path="/about" component={About} />
                 <Route path="/contact" component={Contact} />
+                <Route path="/todolist" component={TodoListScreen} />
                 <Route path="*" component={Home} />
             </Switch>
         </Router>

@@ -35,7 +35,6 @@ class About extends Component {
                     <Row className="About-main">
                         <Hamburger />
                         <div className="d1">
-                            imagen CV fdfsadgfsagsag falta envoltorio de imagenes
                             <SkillsEducation/>
                         </div>
                     </Row>
