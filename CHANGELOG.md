@@ -5,6 +5,13 @@
  and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
  
  ## [Unreleased]
+
+## [0.7.0] - 2020-05-03
+### Added
+ - add yarn add redux And Proptypes
+ - added model & icon project to about me
+ - Create Components & redux skelenton For TodoList project example.
+ - routing path /todolist 
  
 ## [0.6.0] - 2020-04-29
 ### Added
