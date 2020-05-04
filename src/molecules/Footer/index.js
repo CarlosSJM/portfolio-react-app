@@ -5,7 +5,8 @@ import {
     Row,
     Col,
 } from 'react-bootstrap';
-import logo from '../../assets/icon/react_logo.svg';
+import logoReact from '../../assets/icon/react_logo.svg';
+import logoRedux from '../../assets/icon/redux.svg'
 
 function Footer() {
     return (
@@ -13,7 +14,8 @@ function Footer() {
             <Row >
                 <Col xl={12}>
                     <span>2019-{(new Date().getFullYear())} <strong>Carlos San Juan Martin</strong>,  <small>Unreleased 0.5.0</small></span>
-                    <img src={logo} className="App-logo" alt="logo" />
+                    <img src={logoReact} className="App-logo" alt="logo" />
+                    <img src={logoRedux} className="App-logo-redux" alt="logo" />
                 </Col>
             </Row>
         </Container>

@@ -5,11 +5,11 @@ import App from './nav/';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Provider} from 'react-redux';
-import { createStore } from 'redux'
-import rootReducer from './redux/reducers'
+//import { createStore } from 'redux'
+//import rootReducer from './redux/reducers'
+import store from "./redux/store";
 
-
-const store = createStore(rootReducer)
+// const store = createStore(rootReducer)
 
 ReactDOM.render(
     <React.StrictMode>

@@ -1,0 +1,19 @@
+.todoList-header{
+    background-color: #222222;
+    color: white;
+}
+
+
+.Hamburger-menu{
+    min-height: 7vh;
+}
+
+.todoList-main {
+    min-height: 88vh;
+    /*align-items: center;*/
+}
+
+
+.TodoList-footer {
+    min-height: 5vh;
+}
