@@ -4,8 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
-
-### `yarn start`
+### to install dependences `yarn install`
+### to run project `yarn start`
 
 ## Techs & components
 ### React : 16.13.1
@@ -21,6 +21,8 @@ In the project directory, you can run:
     -fortawesome/fontawesome-svg-core: "^1.2.28",
     -fortawesome/free-brands-svg-icons": "^5.13.0",
     -fortawesome/react-fontawesome: "^0.1.9",
+    -redux: "^4.0.5"
+    -prop-types: "^15.7.2"
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
